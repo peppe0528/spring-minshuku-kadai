@@ -74,7 +74,7 @@ import com.example.samuraitravel.repository.HouseRepository;
      
      //UUIDを使って生成したファイル名を返す
      public String generateNewFileName(String fileName) {
-    	 String[] fileNames = fileName.split("__.");
+    	 String[] fileNames = fileName.split("\\.");
     	 for(int i =0; i< fileNames.length - 1; i++) {
     		 fileNames[i] = UUID.randomUUID().toString();
     	 }

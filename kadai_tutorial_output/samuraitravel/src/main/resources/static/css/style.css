@@ -94,7 +94,7 @@ footer {
 	opacity: 0.8;
 }
 
-.samuraitravel-dropdown-item.active {
+.samuraitravel-dropdown-item:active {
 	background-color: #5196a6;
 }
 
@@ -102,7 +102,7 @@ footer {
 	transition: 0.3s;
 }
 
-.samuraitravel-card-link-hover {
+.samuraitravel-card-link:hover {
 	opacity: 0.7;
 }
 

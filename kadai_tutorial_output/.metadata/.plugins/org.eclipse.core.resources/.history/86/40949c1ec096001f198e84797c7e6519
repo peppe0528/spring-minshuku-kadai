@@ -4,7 +4,7 @@
 <head>
 	<div th:replace="~{fragment :: meta}"></div>
 
-	<div th:replace="~{fragment :: styles}"></div>
+	<dev th:replace="~{fragment :: styles}"></dev>
 
 	<title>民宿一覧</title>
 </head>

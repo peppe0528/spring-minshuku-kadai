@@ -4,7 +4,7 @@
 <head>
 	<div th:replace="~{fragment :: meta}"></div>
 
-	<div th:replace="~{fragment :: styles}"></div>
+	<dev th:replace="~{fragment :: styles}"></dev>
 
 	<title>民宿一覧</title>
 </head>
@@ -88,7 +88,7 @@
 							</tbody>
 						</table>
 
-						<!-- ページネーション -->
+						<!-- ページネーション -->>
 						<div th:if="${housePage.getTotalPages() > 1}" class="d-flex justify-content-center">
 							<nav aria-label="民宿一覧ページ">
 								<ul class="pagination">
